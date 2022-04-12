@@ -223,9 +223,17 @@ $(function() {
 });
 
 function validateFields(){
-    if($("#startDate").datepicker('getDate') && $("#endDate").datepicker('getDate') && $("#cellphone").val() && $("#name").val()){
-        return true;
-    } else {
-        return false;
+    if($("#daysLeft").val() === "1"){
+        if($("#startDate").datepicker('getDate') && $("#cellphone").val() && $("#name").val()){
+            return true;
+        } else {
+            return false;
+        }
+    }else {
+        if($("#startDate").datepicker('getDate') && $("#endDate").datepicker('getDate') && $("#cellphone").val() && $("#name").val()){
+            return true;
+        } else {
+            return false;
+        }
     }
 }

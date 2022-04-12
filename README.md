@@ -1,4 +1,4 @@
-## altenTest
+# altenTest
 alten test
 
 
@@ -19,3 +19,11 @@ have Maven 3.8.4 + installed
 4. execute the command "mvn spring-boot:run".
 
 5. open the html page of the project in the browser, example: file:///D:/CodigoPropio/altenTest/client/index.html
+
+## tecnologies
+
+Front in javascript wih Jquery and bootstrap
+
+Back in Java with Spring-boot
+
+Database in MongoDB
